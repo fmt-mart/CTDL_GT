@@ -30,7 +30,7 @@ void themdau(List &first, List &last, int x){
     }
 }
 
-themcuoi(List &first, List &last, int x){
+void themcuoi(List &first, List &last, int x){
     element*p=taophantu(x);
     if(first==NULL){
         first=last=p;
